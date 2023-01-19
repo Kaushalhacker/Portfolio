@@ -1,0 +1,101 @@
+
+   /* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');  */
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,500;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.Sidebar{
+   background-color: rgb(211, 201, 201); 
+  width: 434px;
+   font-family: 'Roboto', sans-serif; 
+   height: 100vh;
+}
+.Sidebar nav{
+padding: 45px;
+}
+.Sidebar nav li{
+    list-style: none ;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.Sidebar nav li a{
+    text-decoration: none;
+    color: rgb(23, 23, 24);
+}
+.Sidebar nav li a:hover{
+    color: rgb(245, 231, 31);
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    font-family: 'Roboto', sans-serif; 
+    display: flex;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /* background-color: rgb(161, 24, 93); */
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+.hello{
+    font-size: 65px;
+    /* font-weight: bold; */
+  
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    /* font-weight: bold; */
+}
+.about{
+    font-size: 40px;
+    /* font-weight: bold; */
+}
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.button{
+margin-top: 34px;
+}
+.button button{
+    
+    padding: 18px;
+    border-radius: 18px;
+    background-color: rgb(62, 155, 209);
+    font-weight: bold;
+    font-size: large;
+    margin-right: 20px;
+}
+.button button:hover{
+   background-color:  rgb(216, 226, 214);
+    color: rgb(50, 185, 185);
+}
+.divPic img{
+    height: 58vh;
+    width: 60vh;
+
+
+}
+
+
+.contactform{
+    
+}
